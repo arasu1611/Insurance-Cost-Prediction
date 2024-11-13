@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 
-data = pd.read_excel("C:/Users/Arasu/OneDrive/Documents/GitHub/Project/insurance_cost_prediction.xlsx")
+data = pd.read_excel("./insurance_cost_prediction.xlsx")
 
 st.write(
    """
